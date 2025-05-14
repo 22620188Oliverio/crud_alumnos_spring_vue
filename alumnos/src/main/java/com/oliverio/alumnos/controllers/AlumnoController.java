@@ -1,5 +1,4 @@
 package com.oliverio.alumnos.controllers;
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,5 +59,4 @@ public class AlumnoController {
     public void eliminarAlumno(@PathVariable Long id) {
         alumnoRepository.deleteById(id);
     }
-
 }
